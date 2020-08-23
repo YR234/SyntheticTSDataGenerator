@@ -10,13 +10,10 @@ Clone reposity, then:
 ```
 $ pip install -r requirements.txt
 ```
-# Demo
-👉 Watch it <a href="https://www.youtube.com/watch?v=6SG2Mjpv8YE">here</a>.
-<br>
-
-[![Watch demo](https://cloud.githubusercontent.com/assets/2263909/18597112/0622a3b0-7c6a-11e6-897d-13f0aa36b6e4.png)](https://www.youtube.com/watch?v=6SG2Mjpv8YE)
-
-<img src="https://j.gifs.com/BBqE8Y.gif">
+# Usage
+All of the code is well documented.
+We strongly reccomend to see our tutorial notebook for a simple explaination on how to use our generator.
+If you can't wait and want to run the generator allready, just run main.py and change variables according to your choise.
 
 ## Installation
 [FR]: https://github.com/akashnimare/foco/releases
