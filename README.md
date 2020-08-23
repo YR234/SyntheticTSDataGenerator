@@ -10,7 +10,7 @@ Clone repository, then:
 ```
 $ pip install -r requirements.txt
 ```
-# Usage
+## Usage
 All of the code is well documented. </br>
 We strongly reccomend to see our tutorial notebook for a simple explaination on how to use our generator.</br>
 If you can't wait and want to run the generator allready, just run main.py and change variables according to your choise.
@@ -18,7 +18,7 @@ If you can't wait and want to run the generator allready, just run main.py and c
 ## Citation
 - [zulip-electron](https://github.com/zulip/zulip-electron)
 
-# Help
+## Help
 for help feel free to contact me at:
 ```
 rotemyar@post.bgu.ac.il
