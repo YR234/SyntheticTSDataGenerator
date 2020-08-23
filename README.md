@@ -8,7 +8,7 @@ Synthetic Times series data generator is the open source code from the the paper
 ## Install
 Clone reposity, then:
 ```
-$ npm install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 # Demo
 👉 Watch it <a href="https://www.youtube.com/watch?v=6SG2Mjpv8YE">here</a>.
