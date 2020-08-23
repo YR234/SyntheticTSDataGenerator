@@ -19,7 +19,5 @@ If you can't wait and want to run the generator allready, just run main.py and c
 - [zulip-electron](https://github.com/zulip/zulip-electron)
 
 ## Help
-for help feel free to contact me at:
-```
-rotemyar@post.bgu.ac.il
-```
+For help, feel free to contact me at: rotemyar@post.bgu.ac.il
+
