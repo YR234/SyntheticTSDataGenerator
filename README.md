@@ -16,7 +16,8 @@ We strongly reccomend to see our [tutorial notebook](https://github.com/YR234/Sy
 If you can't wait and want to run the generator allready, just run main.py and change variables according to your choise.
 
 ## Citation
-- [zulip-electron](https://github.com/zulip/zulip-electron)
+Please cite the following manuscript when using this code: "Generic transfer learning in time series classification using synthetic data generation" (link will be added with acceptance)
+
 
 ## Help
 For help, feel free to contact me at: rotemyar@post.bgu.ac.il
