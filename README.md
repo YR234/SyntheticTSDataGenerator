@@ -12,7 +12,7 @@ $ pip install -r requirements.txt
 ```
 ## Usage
 All of the code is well documented. </br>
-We strongly reccomend to see our tutorial notebook for a simple explaination on how to use our generator.</br>
+We strongly reccomend to see our [a link](https://github.com/YR234/SyntheticTSDataGenerator/blob/master/tutorial.ipynb) notebook for a simple explaination on how to use our generator.</br>
 If you can't wait and want to run the generator allready, just run main.py and change variables according to your choise.
 
 ## Citation
