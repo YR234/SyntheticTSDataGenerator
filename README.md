@@ -1,5 +1,4 @@
 # Synthetic Time series data generator
-
 <h1 align="center">
   <br>
   <img src="https://github.com/YR234/SyntheticTSDataGenerator/blob/master/pictures/synthetic.png" alt="Synthetic" width="500">
