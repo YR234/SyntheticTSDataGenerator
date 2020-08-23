@@ -15,6 +15,9 @@ All of the code is well documented. </br>
 We strongly reccomend to see our [tutorial notebook](https://github.com/YR234/SyntheticTSDataGenerator/blob/master/tutorial.ipynb) for a simple explaination on how to use our generator.</br>
 If you can't wait and want to run the generator allready, just run main.py and change variables according to your choise.
 
+## Our own 15,000,000 time series generated synthetic data
+Our data is available for the community at: [to be added](https://github.com/YR234/SyntheticTSDataGenerator/blob/master/tutorial.ipynb)
+
 ## Citation
 Please cite the following manuscript when using this code: "Generic transfer learning in time series classification using synthetic data generation" (link will be added with acceptance)
 
