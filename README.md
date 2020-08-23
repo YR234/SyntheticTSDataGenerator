@@ -4,12 +4,7 @@
   <br>
   <img src="https://github.com/YR234/SyntheticTSDataGenerator/blob/master/pictures/synthetic.png" alt="Synthetic" width="500">
 </h1>
-
-<h4 align="center">A desktop menubar app based on <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
-
-Foco is a cross-platform desktop app :computer: which runs in menubar.
-Foco boosts your productivity :rocket: by creating perfect productive environment.
-It has the best sounds for getting work done :raised_hands:.
+Synthetic Times series data generator is the open source code from the the paper "Generic transfer learning in time series classification using synthetic data generation"
 
 # Demo
 👉 Watch it <a href="https://www.youtube.com/watch?v=6SG2Mjpv8YE">here</a>.
