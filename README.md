@@ -3,7 +3,7 @@
   <br>
   <img src="https://github.com/YR234/SyntheticTSDataGenerator/blob/master/pictures/synthetic.png" alt="Synthetic" width="500">
 </h1>
-Synthetic Times series data generator is the open source code from the the paper "Generic transfer learning in time series classification using synthetic data generation"
+Synthetic Time series data generator is the open source code from the the paper "Transfer learning in time series classification using synthetic data generation"
 
 ## Install
 Clone repository, then:
@@ -19,7 +19,7 @@ If you can't wait and want to run the generator already, just run main.py and ch
 Our data is available for the community at: [to be added](https://github.com/YR234/SyntheticTSDataGenerator/blob/master/tutorial.ipynb)
 
 ## Citation
-Please cite the following manuscript when using this code: "Generic transfer learning in time series classification using synthetic data generation" (link will be added with acceptance)
+Please cite the following manuscript when using this code: "Transfer learning in time series classification using synthetic data generation" (link will be added with acceptance)
 
 
 ## Help
