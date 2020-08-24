@@ -307,9 +307,9 @@ def train_model(data_path, model_path, max_sequence_length=8001, model="convtime
                 print(f"Training sequence length: {file}")
             es = EarlyStopping(monitor='val_loss', mode='min', patience=5, restore_best_weights=True)
             path = f"{data_path}{file}/{file}_part"
-            x_train = load(f'{path}{i}_x_test.gz')[:100, :]
+            x_train = load(f'{path}{i}_x_test.gz')
             x_train = x_train.reshape(x_train.shape[0], x_train.shape[1], 1)
-            Y_train = load(f'{path}{i}_y_test.gz')[:100, :]
+            Y_train = load(f'{path}{i}_y_test.gz')
             X_train, X_test, y_train, y_test = train_test_split(x_train, Y_train, test_size=0.2, random_state=41,
                                                                 shuffle=True)
             if model == "convtime_6":
