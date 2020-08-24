@@ -290,6 +290,8 @@ def train_model(data_path, model_path, max_sequence_length=8001, model="convtime
         None, cause all files will be written to disk.
 
        """
+    if not os.path.exists(model_path):
+        os.mkdir(model_path)
     number_of_parts = find_max_files(data_path)
     counter = 0
     if start_counter > 0:
@@ -321,13 +323,13 @@ def train_model(data_path, model_path, max_sequence_length=8001, model="convtime
                 model2 = freeze_layers(model)
                 model2.save_weights(f'{model_path}/weight_{counter}.h5')
                 model_json = model2.to_json()
-                with open(f'{model_path}model_{counter}.json', "w") as json_file:
+                with open(f'{model_path}/model_{counter}.json', "w") as json_file:
                     json_file.write(model_json)
                 json_file.close()
     model2 = freeze_layers(model)
     model2.save_weights(f'{model_path}/weight_final{counter}.h5')
     model_json = model2.to_json()
-    with open(f'{model_path}model_final{counter}.json', "w") as json_file:
+    with open(f'{model_path}/model_final{counter}.json', "w") as json_file:
         json_file.write(model_json)
     json_file.close()
 
