@@ -1,8 +1,9 @@
+import os
+os.environ["KERAS_BACKEND"] = "tensorflow"
 from keras.callbacks import EarlyStopping
 from keras.engine.saving import model_from_json
 from keras.layers import Activation, add, Concatenate, Input, Dense, BatchNormalization, Conv1D, GlobalAveragePooling1D
 from sklearn.model_selection import train_test_split
-import os
 from keras import Model
 from compress_pickle import load
 
