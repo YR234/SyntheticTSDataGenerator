@@ -202,7 +202,7 @@ def find_max_files(check_path):
         part = max([int(file2.split("_")[1].split("part")[1]) for file2 in files])
         if part > max_len:
             max_len = part
-    return max_len
+    return max_len + 1
 
 
 def find_number_of_files(check_path):
