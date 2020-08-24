@@ -93,8 +93,6 @@ def generate_synthetic_data(data_path, seq_lengths, samples_per_class, num_files
         for seq in seq_lengths:
             if not os.path.exists(path+str(seq)):
                 os.makedirs(path+str(seq))
-            if not os.path.exists(path+"{}/{}".format(seq, num_samples)):
-                os.makedirs(path+"{}/{}".format(seq, num_samples))
             y = []
             for sequence_type in all_sequences_type:
                 kwargs = get_kwargs(sequence_type, num_samples, seq)
