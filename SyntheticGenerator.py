@@ -103,11 +103,11 @@ def generate_synthetic_data(data_path, seq_lengths, samples_per_class, num_files
 
             y = np.array([np.array(yi) for yi in y])
             y = y.reshape(len(y) * y[0].shape[0], y[0].shape[1])
-            file_name = path + "{}/{}/{}_part{}_x_test.gz".format(seq,num_samples,seq,i)  
+            file_name = path + "{}/{}_part{}_x_test.gz".format(seq,seq,i)  
             dump(y, file_name)
             
             y = fs.create_regression_tastks_no_multi(y, feature_set)
-            file_name = path + "{}/{}/{}_part{}_y_test.gz".format(seq,num_samples,seq,i)
+            file_name = path + "{}/{}_part{}_y_test.gz".format(seq,seq,i)
             dump(y, file_name)
             y = None
 
