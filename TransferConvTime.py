@@ -324,12 +324,6 @@ def train_model(data_path, model_path, max_sequence_length=8001, model="convtime
                 with open(f'{model_path}model_{counter}.json', "w") as json_file:
                     json_file.write(model_json)
                 json_file.close()
-            if counter == 4:
-                print("...")
-                print("and so on for all parts and all sequence length")
-                break
-        if counter == 4:
-            break
     model2 = freeze_layers(model)
     model2.save_weights(f'{model_path}/weight_final{counter}.h5')
     model_json = model2.to_json()
